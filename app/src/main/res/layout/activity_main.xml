@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"></include>
+
+    <!--Button to represent the clear function-->
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="300dp"
+        android:text="C"
+        android:textSize="30sp" />
+
+    <!--Button to represent the division function-->
+    <Button
+        android:id="@+id/btn_divide"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="300dp"
+        android:textSize="30sp"
+        android:text="/" />
+
+    <!--Button to represent the multiplication function-->
+    <Button
+        android:id="@+id/btn_multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="300dp"
+        android:textSize="30sp"
+        android:text="*" />
+
+    <!--Button to represent the clear all function-->
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="300dp"
+        android:textSize="30sp"
+        android:text="X" />
+
+    <!--Button to represent no. 7-->
+    <Button
+        android:id="@+id/btn_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="229dp"
+        android:textSize="30sp"
+        android:text="7" />
+
+    <!--Button to represent no. 8-->
+    <Button
+        android:id="@+id/btn_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="230dp"
+        android:textSize="30sp"
+        android:text="8" />
+
+    <!--Button to represent no. 9-->
+    <Button
+        android:id="@+id/btn_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="230dp"
+        android:textSize="30sp"
+        android:text="9" />
+
+    <!--Button to represent the subtraction function-->
+    <Button
+        android:id="@+id/btn_subtract"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="225dp"
+        android:textSize="30sp"
+        android:text="-" />
+
+    <!--Button to represent no. 4-->
+    <Button
+        android:id="@+id/btn_four"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="162dp"
+        android:textSize="30sp"
+        android:text="4" />
+
+    <!--Button to represent no. 5-->
+    <Button
+        android:id="@+id/btn_five"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="164dp"
+        android:textSize="30sp"
+        android:text="5" />
+
+    <!--Button to represent no. 6-->
+    <Button
+        android:id="@+id/btn_six"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="164dp"
+        android:textSize="30sp"
+        android:text="6" />
+
+    <!--Button to represent the addition function-->
+    <Button
+        android:id="@+id/btn_addition"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="163dp"
+        android:textSize="30sp"
+        android:text="+" />
+
+    <!--Button to represent no. 1-->
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="98dp"
+        android:textSize="30sp"
+        android:text="1" />
+
+    <!--Button to represent no. 2-->
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="98dp"
+        android:textSize="30sp"
+        android:text="2" />
+
+    <!--Button to represent no. 3-->
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="98dp"
+        android:textSize="30sp"
+        android:text="3" />
+
+    <!--Button to represent the percentage function-->
+    <Button
+        android:id="@+id/btn_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="28dp"
+        android:textSize="30sp"
+        android:text="%" />
+
+    <!--Button to represent no. 0-->
+    <Button
+        android:id="@+id/btn_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="28dp"
+        android:textSize="30sp"
+        android:text="0" />
+
+    <!--Button to represent the decimal-->
+    <Button
+        android:id="@+id/btn_decimal"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="28dp"
+        android:textSize="30sp"
+        android:text="." />
+
+    <!--Button to represent the equal function-->
+    <Button
+        android:id="@+id/btn_equal"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="28dp"
+        android:textSize="30sp"
+        android:text="=" />
+
+    <!--Textview to display the final result-->
+    <TextView
+        android:id="@+id/result_display"
+        android:layout_width="370dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="25dp"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="200dp"
+        app:autoSizeMinTextSize="200dp" />
+
+    <!--Textview to display the current entering no.-->
+    <TextView
+        android:id="@+id/number_display"
+        android:layout_width="150dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="24dp"
+        android:textAlignment="viewEnd"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!--Textview to display the App name-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="17dp"
+        android:layout_centerHorizontal="true"
+        android:text="CODEFEST - Calculator"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!--Imageview to display the codefest logo-->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/btn_clear"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/codefest_logo" />
+
+
+</RelativeLayout>
